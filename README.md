@@ -4,12 +4,13 @@
 
 ## Logged events and names
 
-| Location                                           | Description                                                            | Event Name                |
-| :------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------ |
-| body onload                                        | start time (homepage)                                                  | startHomepage             |
-| body onload                                        | start time (browsing page)                                             | startBrowsing             |
-| start scroll                                       | user starts to scroll on browsing page                                 | startBrowsingScroll       |
-| end scroll                                         | user stops scrolling on browsing page                                  | endBrowsingScroll         |
-| Chocolate peanut button onclick                    | Click on Chocolate peanut cupcake Add To Cart Button                   | clickedChocolateAddToCart |
-| Red velvet raspberry custom cupcake button onclick | Click on custom cupcake Add To Cart Button                             | clickedRedVelvetAddToCart |
-| Custom cupcake button onclick                      | Click on custom cupcake Add To Cart Button, also the journey end event | clickedCustomAddToCart    |
+| No. | Location                                           | Description                                                            | Event Name                |
+| :-- | :------------------------------------------------- | :--------------------------------------------------------------------- | :------------------------ |
+| 1   | body onload                                        | start time (homepage)                                                  | startHomepage             |
+| 2   | button onclick                                     | click on go to cupcakes button(homepage)                               | clickedGoToBrowsingPage   |
+| 3   | body onload                                        | start time (browsing page)                                             | startBrowsing             |
+| 4   | start scroll                                       | user starts to scroll on browsing page                                 | startBrowsingScroll       |
+| 5   | end scroll                                         | user stops scrolling on browsing page                                  | endBrowsingScroll         |
+| 6   | Chocolate peanut button onclick                    | Click on Chocolate peanut cupcake Add To Cart Button                   | clickedChocolateAddToCart |
+| 7   | Red velvet raspberry custom cupcake button onclick | Click on custom cupcake Add To Cart Button                             | clickedRedVelvetAddToCart |
+| 8   | Custom cupcake button onclick                      | Click on custom cupcake Add To Cart Button, also the journey end event | clickedCustomAddToCart    |
