@@ -19,8 +19,11 @@
 <link href="css/cupcakes.css" rel="stylesheet">
 <script defer src="js/gtag.js"></script>
 <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-22531588-1"></script>
+<script src="logging.js"></script>
+<script src="js/utils/util.js"></script>
+<script src="js/cupcakes.js"></script>
 </head>
-<body id="top" class="w3-container w3-TOCCpfont" style="margin-right:3%;margin-left:3%;">
+<body id="top" class="w3-container w3-TOCCpfont" style="margin-right:3%;margin-left:3%;" onload="logEventUtil('startBrowsing')" onscroll="onScrollStart()">
 
 <nav class="w3-sidenav w3-theme-l3 w3-TOCCheaderFont w3-card-4 w3-round-large w3-animate-left" style="display:none" id="TOCCSidenav">
   <a href="#"
@@ -138,7 +141,7 @@ Or have fun and select from the individual flavours below:</p>
     <span class="w3-small">QTY</span>
     <input class="w3-round-large" type="text" name="qty" size="2" value="1">
 <!-- <input type="hidden" value="Add to Cart" name="order" >  -->
-    <input type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
+    <input onclick="logEventUtil('clickedChocolateAddToCart')" type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
     <a class="w3-onclick w3-right w3-hide-large" href="#top"><i class="icon-up-arrow" title="TOP" style="font-size:24px"></i></a>
     </form>
     </div>
@@ -789,7 +792,7 @@ Or have fun and select from the individual flavours below:</p>
 <span class="w3-small">QTY</span>
     <input class="w3-round-large" type="text" name="qty" size="2" value="1">
 <!-- <input type="hidden" value="Add to Cart" name="order" >  -->
-<input type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
+<input onclick="logEventUtil('clickedRedVelvetAddToCart')"  type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
     <a class="w3-onclick w3-right w3-hide-medium w3-hide-large" href="#top"><i class="icon-up-arrow" title="TOP" style="font-size:24px"></i></a>
     </form>
     </div>
@@ -1343,7 +1346,7 @@ END Halloween -->
 <p class="w3-small">QTY
     <input class="w3-round-large" type="text" name="qty" size="2" value="1">
 <!-- <input type="hidden" value="Add to Cart" name="order" >  -->
-<input type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
+<input onclick="logEventUtil('clickedCustomAddToCart')" type="image" src="images/small.png" width="110"  height="30" class="w3-btn w3-small w3-round-xxlarge w3-border w3-theme-l4"  alt="Add to Cart" name="order">
     <a class="w3-onclick w3-right w3-hide-large" href="#top"><i class="icon-up-arrow" title="TOP" style="font-size:24px"></i></a>
     </form>
     </div>

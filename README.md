@@ -12,5 +12,5 @@
 | 4   | start scroll                                       | user starts to scroll on browsing page                                 | startBrowsingScroll       |
 | 5   | end scroll                                         | user stops scrolling on browsing page                                  | endBrowsingScroll         |
 | 6   | Chocolate peanut button onclick                    | Click on Chocolate peanut cupcake Add To Cart Button                   | clickedChocolateAddToCart |
-| 7   | Red velvet raspberry custom cupcake button onclick | Click on custom cupcake Add To Cart Button                             | clickedRedVelvetAddToCart |
+| 7   | Red velvet raspberry button onclick | Click on custom cupcake Add To Cart Button                             | clickedRedVelvetAddToCart |
 | 8   | Custom cupcake button onclick                      | Click on custom cupcake Add To Cart Button, also the journey end event | clickedCustomAddToCart    |
